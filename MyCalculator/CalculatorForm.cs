@@ -34,16 +34,22 @@ namespace MyCalculator
         {
             try
             {
+                // 入力値を取得し、計算する
                 float input;
                 checked
                 {
                     input = float.Parse(ResultTextBox.Text);
                 }
-                int error = calcModel.inputOperator(((Button)sender).Text, input);
-                if (error == -1)
-                    throw new InvalidOperationException("計算結果が計算できる範囲を超えました。");
-                else if (error == -2)
-                    throw new InvalidOperationException("計算できない数値が入力されました。例：０による割り算");
+                if (HistoryTextBox.Text.Contains("="))
+                    HistoryTextBox.Text = "";
+
+                string operatorText = ((Button)sender).Text;
+                HistoryTextBox.Text += ResultTextBox.Text + " " + operatorText + " ";
+                int error = calcModel.inputOperator(operatorText, input);
+
+                // 結果をチェックし、表示を更新する
+                if (error != 0)
+                    throw new InvalidOperationException(error.ToString());
 
                 inputNumText = "";
                 ResultTextBox.Text = calcModel.result.ToString();
@@ -55,7 +61,17 @@ namespace MyCalculator
             }
             catch (InvalidOperationException ex)
             {
-                showErrorMessage(ex.Message);
+                switch (ex.Message)
+                {
+                    case "-1":
+                        showErrorMessage("計算結果が計算できる範囲を超えました。");
+                        break;
+                    case "-2":
+                        showErrorMessage("計算できない数値が入力されました。例：０による割り算");
+                        break;
+                    default:
+                        break;
+                }
                 initCalcStatus();
             }
 
@@ -79,6 +95,7 @@ namespace MyCalculator
             calcModel.clearResult();
             inputNumText = "";
             ResultTextBox.Text = "0";
+            HistoryTextBox.Text = "";
         }
     }
 }

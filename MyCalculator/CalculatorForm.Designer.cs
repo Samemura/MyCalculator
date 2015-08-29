@@ -46,13 +46,14 @@
             this.OpeDivideButton = new System.Windows.Forms.Button();
             this.OpeEqualButton = new System.Windows.Forms.Button();
             this.ClearButton = new System.Windows.Forms.Button();
+            this.HistoryTextBox = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // ResultTextBox
             // 
             this.ResultTextBox.Enabled = false;
             this.ResultTextBox.Font = new System.Drawing.Font("MS UI Gothic", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.ResultTextBox.Location = new System.Drawing.Point(12, 21);
+            this.ResultTextBox.Location = new System.Drawing.Point(12, 43);
             this.ResultTextBox.Name = "ResultTextBox";
             this.ResultTextBox.Size = new System.Drawing.Size(249, 31);
             this.ResultTextBox.TabIndex = 0;
@@ -62,7 +63,7 @@
             // Num7Button
             // 
             this.Num7Button.Font = new System.Drawing.Font("MS UI Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.Num7Button.Location = new System.Drawing.Point(12, 72);
+            this.Num7Button.Location = new System.Drawing.Point(12, 94);
             this.Num7Button.Name = "Num7Button";
             this.Num7Button.Size = new System.Drawing.Size(45, 37);
             this.Num7Button.TabIndex = 1;
@@ -73,7 +74,7 @@
             // Num8Button
             // 
             this.Num8Button.Font = new System.Drawing.Font("MS UI Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.Num8Button.Location = new System.Drawing.Point(63, 72);
+            this.Num8Button.Location = new System.Drawing.Point(63, 94);
             this.Num8Button.Name = "Num8Button";
             this.Num8Button.Size = new System.Drawing.Size(45, 37);
             this.Num8Button.TabIndex = 2;
@@ -84,7 +85,7 @@
             // Num9Button
             // 
             this.Num9Button.Font = new System.Drawing.Font("MS UI Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.Num9Button.Location = new System.Drawing.Point(114, 72);
+            this.Num9Button.Location = new System.Drawing.Point(114, 94);
             this.Num9Button.Name = "Num9Button";
             this.Num9Button.Size = new System.Drawing.Size(45, 37);
             this.Num9Button.TabIndex = 2;
@@ -95,7 +96,7 @@
             // Num4Button
             // 
             this.Num4Button.Font = new System.Drawing.Font("MS UI Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.Num4Button.Location = new System.Drawing.Point(12, 115);
+            this.Num4Button.Location = new System.Drawing.Point(12, 137);
             this.Num4Button.Name = "Num4Button";
             this.Num4Button.Size = new System.Drawing.Size(45, 37);
             this.Num4Button.TabIndex = 1;
@@ -106,7 +107,7 @@
             // Num5Button
             // 
             this.Num5Button.Font = new System.Drawing.Font("MS UI Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.Num5Button.Location = new System.Drawing.Point(63, 115);
+            this.Num5Button.Location = new System.Drawing.Point(63, 137);
             this.Num5Button.Name = "Num5Button";
             this.Num5Button.Size = new System.Drawing.Size(45, 37);
             this.Num5Button.TabIndex = 2;
@@ -117,7 +118,7 @@
             // Num6Button
             // 
             this.Num6Button.Font = new System.Drawing.Font("MS UI Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.Num6Button.Location = new System.Drawing.Point(114, 115);
+            this.Num6Button.Location = new System.Drawing.Point(114, 137);
             this.Num6Button.Name = "Num6Button";
             this.Num6Button.Size = new System.Drawing.Size(45, 37);
             this.Num6Button.TabIndex = 2;
@@ -128,7 +129,7 @@
             // Num1Button
             // 
             this.Num1Button.Font = new System.Drawing.Font("MS UI Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.Num1Button.Location = new System.Drawing.Point(12, 158);
+            this.Num1Button.Location = new System.Drawing.Point(12, 180);
             this.Num1Button.Name = "Num1Button";
             this.Num1Button.Size = new System.Drawing.Size(45, 37);
             this.Num1Button.TabIndex = 1;
@@ -139,7 +140,7 @@
             // Num2Button
             // 
             this.Num2Button.Font = new System.Drawing.Font("MS UI Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.Num2Button.Location = new System.Drawing.Point(63, 158);
+            this.Num2Button.Location = new System.Drawing.Point(63, 180);
             this.Num2Button.Name = "Num2Button";
             this.Num2Button.Size = new System.Drawing.Size(45, 37);
             this.Num2Button.TabIndex = 2;
@@ -150,7 +151,7 @@
             // Num3Button
             // 
             this.Num3Button.Font = new System.Drawing.Font("MS UI Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.Num3Button.Location = new System.Drawing.Point(114, 158);
+            this.Num3Button.Location = new System.Drawing.Point(114, 180);
             this.Num3Button.Name = "Num3Button";
             this.Num3Button.Size = new System.Drawing.Size(45, 37);
             this.Num3Button.TabIndex = 2;
@@ -161,7 +162,7 @@
             // Num0Button
             // 
             this.Num0Button.Font = new System.Drawing.Font("MS UI Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.Num0Button.Location = new System.Drawing.Point(12, 201);
+            this.Num0Button.Location = new System.Drawing.Point(12, 223);
             this.Num0Button.Name = "Num0Button";
             this.Num0Button.Size = new System.Drawing.Size(96, 37);
             this.Num0Button.TabIndex = 1;
@@ -172,7 +173,7 @@
             // NumDotButton
             // 
             this.NumDotButton.Font = new System.Drawing.Font("MS UI Gothic", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.NumDotButton.Location = new System.Drawing.Point(114, 201);
+            this.NumDotButton.Location = new System.Drawing.Point(114, 223);
             this.NumDotButton.Name = "NumDotButton";
             this.NumDotButton.Size = new System.Drawing.Size(45, 37);
             this.NumDotButton.TabIndex = 2;
@@ -184,7 +185,7 @@
             // 
             this.OpePlusButton.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
             this.OpePlusButton.Font = new System.Drawing.Font("MS UI Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.OpePlusButton.Location = new System.Drawing.Point(165, 201);
+            this.OpePlusButton.Location = new System.Drawing.Point(165, 223);
             this.OpePlusButton.Name = "OpePlusButton";
             this.OpePlusButton.Size = new System.Drawing.Size(45, 37);
             this.OpePlusButton.TabIndex = 2;
@@ -196,7 +197,7 @@
             // 
             this.OpeMinusButton.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
             this.OpeMinusButton.Font = new System.Drawing.Font("MS UI Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.OpeMinusButton.Location = new System.Drawing.Point(165, 158);
+            this.OpeMinusButton.Location = new System.Drawing.Point(165, 180);
             this.OpeMinusButton.Name = "OpeMinusButton";
             this.OpeMinusButton.Size = new System.Drawing.Size(45, 37);
             this.OpeMinusButton.TabIndex = 2;
@@ -208,7 +209,7 @@
             // 
             this.OpeMultiButton.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
             this.OpeMultiButton.Font = new System.Drawing.Font("MS UI Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.OpeMultiButton.Location = new System.Drawing.Point(165, 115);
+            this.OpeMultiButton.Location = new System.Drawing.Point(165, 137);
             this.OpeMultiButton.Name = "OpeMultiButton";
             this.OpeMultiButton.Size = new System.Drawing.Size(45, 37);
             this.OpeMultiButton.TabIndex = 2;
@@ -220,7 +221,7 @@
             // 
             this.OpeDivideButton.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
             this.OpeDivideButton.Font = new System.Drawing.Font("MS UI Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.OpeDivideButton.Location = new System.Drawing.Point(165, 72);
+            this.OpeDivideButton.Location = new System.Drawing.Point(165, 94);
             this.OpeDivideButton.Name = "OpeDivideButton";
             this.OpeDivideButton.Size = new System.Drawing.Size(45, 37);
             this.OpeDivideButton.TabIndex = 2;
@@ -232,7 +233,7 @@
             // 
             this.OpeEqualButton.BackColor = System.Drawing.Color.NavajoWhite;
             this.OpeEqualButton.Font = new System.Drawing.Font("MS UI Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.OpeEqualButton.Location = new System.Drawing.Point(216, 158);
+            this.OpeEqualButton.Location = new System.Drawing.Point(216, 180);
             this.OpeEqualButton.Name = "OpeEqualButton";
             this.OpeEqualButton.Size = new System.Drawing.Size(45, 80);
             this.OpeEqualButton.TabIndex = 2;
@@ -244,7 +245,7 @@
             // 
             this.ClearButton.BackColor = System.Drawing.Color.NavajoWhite;
             this.ClearButton.Font = new System.Drawing.Font("MS UI Gothic", 7F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.ClearButton.Location = new System.Drawing.Point(216, 72);
+            this.ClearButton.Location = new System.Drawing.Point(216, 94);
             this.ClearButton.Name = "ClearButton";
             this.ClearButton.Size = new System.Drawing.Size(45, 80);
             this.ClearButton.TabIndex = 2;
@@ -252,11 +253,21 @@
             this.ClearButton.UseVisualStyleBackColor = false;
             this.ClearButton.Click += new System.EventHandler(this.ClearButton_Click);
             // 
+            // HistoryTextBox
+            // 
+            this.HistoryTextBox.Enabled = false;
+            this.HistoryTextBox.Font = new System.Drawing.Font("MS UI Gothic", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.HistoryTextBox.Location = new System.Drawing.Point(14, 12);
+            this.HistoryTextBox.Name = "HistoryTextBox";
+            this.HistoryTextBox.Size = new System.Drawing.Size(249, 25);
+            this.HistoryTextBox.TabIndex = 0;
+            this.HistoryTextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            // 
             // CalculatorForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(275, 258);
+            this.ClientSize = new System.Drawing.Size(275, 274);
             this.Controls.Add(this.OpeDivideButton);
             this.Controls.Add(this.OpeMultiButton);
             this.Controls.Add(this.OpeMinusButton);
@@ -274,6 +285,7 @@
             this.Controls.Add(this.Num1Button);
             this.Controls.Add(this.Num4Button);
             this.Controls.Add(this.Num7Button);
+            this.Controls.Add(this.HistoryTextBox);
             this.Controls.Add(this.ResultTextBox);
             this.Name = "CalculatorForm";
             this.Text = "計算機";
@@ -302,6 +314,7 @@
         private System.Windows.Forms.Button OpeDivideButton;
         private System.Windows.Forms.Button OpeEqualButton;
         private System.Windows.Forms.Button ClearButton;
+        private System.Windows.Forms.TextBox HistoryTextBox;
 
     }
 }

@@ -40,13 +40,10 @@ namespace MyCalculator
             preOperator = inputOperator;
 
             if (float.IsInfinity(result))
-            {
                 ret = -1;
-            }
             else if (float.IsNaN(result))
-            {
                 ret = -2;
-            }
+
             return ret;
         }
 
