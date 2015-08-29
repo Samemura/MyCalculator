@@ -230,7 +230,7 @@
             // 
             // OpeEqualButton
             // 
-            this.OpeEqualButton.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.OpeEqualButton.BackColor = System.Drawing.Color.NavajoWhite;
             this.OpeEqualButton.Font = new System.Drawing.Font("MS UI Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.OpeEqualButton.Location = new System.Drawing.Point(216, 158);
             this.OpeEqualButton.Name = "OpeEqualButton";
@@ -242,7 +242,7 @@
             // 
             // ClearButton
             // 
-            this.ClearButton.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.ClearButton.BackColor = System.Drawing.Color.NavajoWhite;
             this.ClearButton.Font = new System.Drawing.Font("MS UI Gothic", 7F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.ClearButton.Location = new System.Drawing.Point(216, 72);
             this.ClearButton.Name = "ClearButton";

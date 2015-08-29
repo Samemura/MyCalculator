@@ -7,7 +7,7 @@ namespace MyCalculator
 {
     class CalculatorModel
     {
-        public double result;
+        public float result;
         private string preOperator;
 
         public CalculatorModel()
@@ -15,8 +15,10 @@ namespace MyCalculator
             clearResult();
         }
 
-        public void inputOperator(String inputOperator, double inputNum)
+        public int inputOperator(String inputOperator, float inputNum)
         {
+            int ret = 0;
+
             switch (preOperator)
             {
                 case "+":
@@ -36,6 +38,16 @@ namespace MyCalculator
                     break;
             }
             preOperator = inputOperator;
+
+            if (float.IsInfinity(result))
+            {
+                ret = -1;
+            }
+            else if (float.IsNaN(result))
+            {
+                ret = -2;
+            }
+            return ret;
         }
 
         public void clearResult()
