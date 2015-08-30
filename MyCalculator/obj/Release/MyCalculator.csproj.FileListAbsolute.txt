@@ -1,0 +1,8 @@
+C:\Users\MasakiMurano\Documents\Visual Studio 2008\Projects\MyCalculator\MyCalculator\bin\Release\MyCalculator.exe
+C:\Users\MasakiMurano\Documents\Visual Studio 2008\Projects\MyCalculator\MyCalculator\bin\Release\MyCalculator.pdb
+C:\Users\MasakiMurano\Documents\Visual Studio 2008\Projects\MyCalculator\MyCalculator\obj\Release\ResolveAssemblyReference.cache
+C:\Users\MasakiMurano\Documents\Visual Studio 2008\Projects\MyCalculator\MyCalculator\obj\Release\MyCalculator.CalculatorForm.resources
+C:\Users\MasakiMurano\Documents\Visual Studio 2008\Projects\MyCalculator\MyCalculator\obj\Release\MyCalculator.Properties.Resources.resources
+C:\Users\MasakiMurano\Documents\Visual Studio 2008\Projects\MyCalculator\MyCalculator\obj\Release\MyCalculator.csproj.GenerateResource.Cache
+C:\Users\MasakiMurano\Documents\Visual Studio 2008\Projects\MyCalculator\MyCalculator\obj\Release\MyCalculator.exe
+C:\Users\MasakiMurano\Documents\Visual Studio 2008\Projects\MyCalculator\MyCalculator\obj\Release\MyCalculator.pdb
