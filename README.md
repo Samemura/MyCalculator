@@ -28,7 +28,7 @@ C#.NET　で開発した計算機アプリ。
 - 分母が"0" の割り算を計算した場合
 
 ## インストール方法
-1. [リリースページ](https://github.com/Samemura/MyCalculator/releases)　より、最新版をダウンロードする。
+1. [リリースページ](https://github.com/Samemura/MyCalculator/releases)　より、最新版の"MyCalculator.exe"をダウンロードする。
 2. ダウンロードしたファイルを実行する。
 
 ## システム要件
