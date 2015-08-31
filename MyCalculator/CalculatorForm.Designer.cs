@@ -51,12 +51,15 @@
             // 
             // ResultTextBox
             // 
-            this.ResultTextBox.Enabled = false;
+            this.ResultTextBox.BackColor = System.Drawing.Color.White;
+            this.ResultTextBox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.ResultTextBox.Font = new System.Drawing.Font("MS UI Gothic", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.ResultTextBox.Location = new System.Drawing.Point(12, 43);
             this.ResultTextBox.Name = "ResultTextBox";
+            this.ResultTextBox.ReadOnly = true;
             this.ResultTextBox.Size = new System.Drawing.Size(249, 31);
             this.ResultTextBox.TabIndex = 0;
+            this.ResultTextBox.TabStop = false;
             this.ResultTextBox.Text = "0";
             this.ResultTextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
@@ -255,12 +258,15 @@
             // 
             // HistoryTextBox
             // 
-            this.HistoryTextBox.Enabled = false;
+            this.HistoryTextBox.BackColor = System.Drawing.Color.White;
+            this.HistoryTextBox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.HistoryTextBox.Font = new System.Drawing.Font("MS UI Gothic", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.HistoryTextBox.Location = new System.Drawing.Point(14, 12);
+            this.HistoryTextBox.Location = new System.Drawing.Point(12, 12);
             this.HistoryTextBox.Name = "HistoryTextBox";
+            this.HistoryTextBox.ReadOnly = true;
             this.HistoryTextBox.Size = new System.Drawing.Size(249, 25);
             this.HistoryTextBox.TabIndex = 0;
+            this.HistoryTextBox.TabStop = false;
             this.HistoryTextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // CalculatorForm
